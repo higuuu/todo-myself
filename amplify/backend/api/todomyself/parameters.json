@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "todomyself",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authtodomyselff0658f01",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
